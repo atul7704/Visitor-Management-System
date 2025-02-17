@@ -1,0 +1,78 @@
+/* Admin Page Background */
+.admin {
+  background: url('https://img.freepik.com/free-photo/technology-background-with-blue-light-effect_1017-33942.jpg') no-repeat center center fixed;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Form Container */
+.admin center {
+  background: linear-gradient(135deg, #273e54, #343738); /* Gradient blue */
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2); /* Stronger shadow */
+  width: 100%;
+  max-width: 400px;
+  font-family: 'Arial', sans-serif;
+  color: white; /* Ensures text is readable */
+}
+
+/* Title Styling */
+.admin h1 {
+  font-size: 28px;
+  color: #ffcc00; /* Bright yellow title */
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Input Fields */
+.admin input {
+  width: 100%;
+  padding: 12px 15px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  color: black;
+  background: white;
+}
+
+/* Input Focus Effect */
+.admin input:focus {
+  border-color: #ffcc00; /* Yellow focus */
+  box-shadow: 0 0 5px rgba(255, 204, 0, 0.5);
+}
+
+/* Button Styling */
+.admin button {
+  width: 100%;
+  padding: 14px;
+  background-color: #ffcc00; /* Bright Yellow */
+  color: black;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+}
+
+.admin button:hover {
+  background-color: #ff9900; /* Darker Yellow */
+}
+
+.admin button:active {
+  background-color: #cc7a00; /* Even darker shade when clicked */
+}
+
+/* Message Styling */
+.messa {
+  margin-top: 5%;
+  color: red;
+  text-align: center;
+}

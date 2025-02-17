@@ -1,0 +1,117 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Centered Container */
+.center-container {
+    max-width: 400px;
+    background: linear-gradient(135deg, #bfdb05, #262b65, #561d35, #520d3b); ;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    margin: 20px auto;
+    text-align: center;
+}
+
+/* Form Group */
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form-group label {
+    font-size: 14px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none;
+}
+
+/* Button Styling */
+button {
+    width: 100%;
+    padding: 10px;
+    background: #ff9800;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    margin-bottom: 3%;
+}
+
+button:hover {
+    background: #e68900;
+}
+.table-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 100%;
+    margin: 20px auto;
+    background: rgba(72, 70, 70, 0.95);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
+    overflow-y: hidden;
+    overflow-x: scroll;
+    scrollbar-width: none;
+}
+
+
+/* Table Styling */
+.table-container table {
+    width: 100%;
+    border-collapse: collapse;
+ 
+}
+
+.table-container th, .table-container td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #444;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .center-container {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .form-group input {
+        padding: 6px;
+        font-size: 13px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .table-container th, .table-container td {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    .table-container table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+}
